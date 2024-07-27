@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-color: black; */
+    background: url(image/bg1.png)no-repeat center center/cover;
+    width: 100%;
+    height: 300px;
+}
+
+/* -----------------------Navbar Section------------------------------------- */
+#navbar{
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+#logo img{
+    height: 65px;
+    padding-left: 100px;
+}
+ul{
+    display: flex;
+    padding-left: 380px;
+    /* position: absolute; */
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px;
+}
+ul li a:hover{
+    text-decoration: underline;
+}
+/* ---------------------------------Section Home------------------------------ */
+#home{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    /* align-items: first baseline; */
+    /* background-color: rgb(255, 102, 0); */
+    width: 100%;
+    height: 500px;
+}
+#home h1{
+    color: aliceblue;
+    padding-left: 142px;
+    font-size: 7rem;
+    padding-top: 50px;
+}
+.btn1{
+    padding-left: 183px;
+}
+.btn{
+    background-color: rgb(19, 19, 240);
+    color: aliceblue;
+    border: 2px solid rgb(19, 19, 240);
+    border-bottom-right-radius: 23px;
+    border-top-left-radius: 23px;
+    padding: 14px;
+    cursor: pointer;
+}
+/* ------------------------------------Section Meny favoutite-------------------- */
+#menu{
+    display: flex;
+    position: relative;
+    background-color: #ff7e58;
+    height: 600px;
+    flex-direction: column;
+    align-items: center;
+}
+.me{
+    padding-top: 45px;
+    font-size: 4em;
+    color: white;
+}
+#menu p{
+    color: aliceblue;
+}
+#boxes{
+    display: flex;
+    margin: 20px;
+}
+.box1{
+    height: 386px;
+    width: 458px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+}
+#boxes .box1 .box{
+    height: 150px;
+    width: 150px;
+    background: url(image/f1.jpg) no-repeat center center/cover;
+    border-radius: 85px;
+}
+#boxes .box1 .box-1{
+    height: 150px;
+    width: 150px;
+    background: url(image/fimg2.jpg) no-repeat center center/cover;
+    border-radius: 86px;
+}
+#boxes .box1 .box-2{
+    height: 150px;
+    width: 150px;
+    background: url(image/fimg3.jpg) no-repeat center center/cover;
+    border-radius: 85px;
+}
+.h-pr{
+    color: aliceblue;
+    font-size: 2rem;
+    padding-top: 18px;
+}
+/* ----------------------------------section-1-------------------------------- */
+#section-1{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-color: #ffeedc;
+    align-items: center;
+}
+#section-1 .box3{
+    height: 300px;
+    width: 300px;
+    background: url(image/burgur.jpg) no-repeat center center/cover;
+    border-radius: 175px;
+    margin-left: 298px;
+    position: absolute;
+}
+#textarea{
+    margin-left: 464px;
+    padding: 228px;
+    position: absolute;
+    
+}
+.sketch img{
+    height: 141px;
+    margin-left: 1300px;
+    margin-bottom: 322px;
+    position: absolute;
+}
+.sketch{
+    margin-bottom: 405px;
+}
+#textarea .a1{
+    color: rgb(57, 97, 255);
+    font-size: 3rem;
+    padding-bottom: 8px;
+}
+.sk1 img{
+    height: 303px;
+    position: absolute;
+}
+/* -------------------------------------Section-2---------------------------- */
+#section-2{
+    position: absolute;
+    background-color: #1b6ec7;
+    width: 100%;
+    height: 400px;
+}
+#section-2 .a2{
+    color: white;
+    text-align: center;
+    margin-top: 63px;
+    font-size: 2.8rem;
+}
+#c1{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+#c1 .b1{
+    height: 140px;
+    width: 140px;
+    border: 4px solid white;
+    margin: 35px;
+    border-radius: 100px;
+}
+.num{
+    text-align: center;
+    margin-top: 27px;
+    color: aliceblue;
+    font-size: 4.5rem;
+}
+#t{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-left: 84px;
+}
+#t .t1{
+    color: aliceblue;
+    margin-top: 205px;
+    padding-right: 173px;
+}
