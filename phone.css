@@ -1,0 +1,49 @@
+#menu{
+    height: 1360px;
+    margin-top: 0px;
+}
+#boxes{
+    flex-direction: column;
+}
+#navbar{
+    flex-direction: column;
+}
+ul{
+    /* flex-direction: column; */
+    padding-left: 0px;
+    /* position: inherit; */
+}
+#logo img{
+    padding-left: 0px;
+}
+#home h1 {
+    padding-left: 68px;
+    font-size: 4rem;
+}
+.btn1 {
+    padding-left: 80px;
+}
+#home{
+    height: 268px;
+}
+#section-1 .box3 {
+    height: 150px;
+    width: 150px;
+    border-radius: 175px;
+    margin-left: 60px;
+}
+#textarea {
+        margin-left: 33px;
+        padding: 47px;
+        padding-left: 216px;
+}
+#c1 .b1 {
+    height: 120px;
+    width: 120px;
+}
+#section-2 .a2 {
+    color: white;
+    text-align: center;
+    margin-top: 63px;
+    font-size: 2.8rem;
+}
